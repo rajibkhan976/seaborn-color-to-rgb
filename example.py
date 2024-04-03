@@ -1,0 +1,3 @@
+import seaborn_color_palette_to_rgb
+
+print(seaborn_color_palette_to_rgb.convert_seaborn_color_to_rgb("Blues"))

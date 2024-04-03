@@ -1,6 +1,7 @@
 import seaborn as sns
 from matplotlib import colormaps
 
+
 def hex_to_rgb(hex):
   return tuple(int(hex[i:i+2], 16) for i in (0, 2, 4))
 
@@ -28,4 +29,5 @@ def convert_seaborn_color_to_rgb(paletteName):
   return color_pal_rgb
 
 
-print(convert_seaborn_color_to_rgb("autumn"))
+if __name__ == "__main__":
+  convert_seaborn_color_to_rgb(paletteName="")
